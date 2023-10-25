@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Service
 public class PostsService {
+
     private final PostsRepository postsRepository;
 
     @Transactional
